@@ -20,3 +20,8 @@ export default {
   }
 };
 </script>
+<style scoped>
+input {
+  margin-left: 85px;
+}
+</style>
