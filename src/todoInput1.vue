@@ -14,6 +14,7 @@ export default {
   },
   methods: {
     emitTodo() {
+      if(this.todo == ""){return};
       this.$emit("addEmitTodo", this.todo);
       this.todo = "";
     }
